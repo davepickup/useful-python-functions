@@ -1,8 +1,0 @@
-#Function for separating numerical and categorical data in a DataFrame
-
-def num_cat_separator(dataframe):
-  num_data = dataframe.select_dtypes(exclude=[object])
-  cat_data = dataframe.select_dtypes(include=[objecct)
-  return (num_data, cat_data)
-  
-  
